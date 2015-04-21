@@ -1,6 +1,6 @@
-Opencv-Saliency
+OpenCV-Saliency
 ===============
 
-Saliency Detection codes based OpenCV
+Saliency Detection codes based on OpenCV.
 
-reference：[Saliency Detection via Graph-Based Manifold Ranking](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6619251&tag=1)
+Reference：[Saliency Detection via Graph-Based Manifold Ranking](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6619251&tag=1)
