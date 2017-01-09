@@ -16,11 +16,11 @@ typedef unsigned int UINT;
 
 PreGraph::PreGraph()
 {
-	 spNumMax = 200;
-	 compactness = 20.0;
-	 alpha = 0.99f;
-	 theta = 0.1f;
-	 spNum = 0;
+	spNumMax = 200;
+	compactness = 20.0;
+	alpha = 0.99f;
+	theta = 0.1f;
+	spNum = 0;
 }
 PreGraph::~PreGraph()
 {
