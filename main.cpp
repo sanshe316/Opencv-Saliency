@@ -20,7 +20,7 @@ using namespace cv;
 int main(int argc, char* argv[])
 {
 	
-	Mat img = imread("Imgs_0001.bmp");
+	Mat img = imread("6.png");
 	PreGraph SpMat;
 	Mat superpixels = SpMat.GeneSp(img);
 	Mat sal = SpMat.GeneSal(img);
