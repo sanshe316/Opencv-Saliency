@@ -127,7 +127,8 @@ vector<int> PreGraph::GeneBdQuery(const Mat &superpixels, const int type)
 
 int PreGraph::GeneFeature(const Mat &img, const Mat &superpixels, const int feaType, Mat &feaSpL, Mat &feaSpA, Mat &feaSpB, Mat &spNpix, Mat &spCnt)
 {
-	Mat feaMap = img;
+	Mat feaMap(img.size(),img.type());
+	img.copyTo(feaMap);
 	switch (feaType)
 	{
 	case 1:
