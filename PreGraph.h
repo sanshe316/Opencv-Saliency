@@ -13,14 +13,12 @@ Reference http://ice.dlut.edu.cn/lu/Project/CVPR13[yangchuan]/cvprsaliency.htm
 #ifndef _PREGRAPH_H
 #define _PREGRAPH_H
 
-#include <opencv2\core\core.hpp>
-#include <opencv2\highgui\highgui.hpp>
-#include <opencv2\imgproc\imgproc.hpp>
+#include <opencv2/opencv.hpp>
 #include <iostream>
 #include <vector>
 #include <algorithm>
 #include <limits>
-#include "Superpixel\SLIC.h"
+#include "SLIC.h"
 using namespace cv;
 class PreGraph
 {
